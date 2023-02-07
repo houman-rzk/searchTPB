@@ -1,18 +1,18 @@
 # searchTPB
 
-A minimalist script that searches ThePirateBay.
+A minimalist script that searches The Pirate Bay [through the clearnet or tor].
 
-The script asks the user for a search query and returns the corresponding list of torrents from The Pirate Bay for the given query. The user then selects the torrent whose magnet link will be copied to the clipboard.
+The script asks the user for a search query and returns the corresponding list of torrents from The Pirate Bay for the given query. The user then selects a torrent, whose magnet link will be copied to the clipboard.
 
 ### Dependencies
-- python
+- python3
 - selenium (python)
 - dmenu
-- tor (needed if ThePirateBay is inaccesible for you)
+- tor (needed if The Pirate Bay is inaccesible for you)
 
 ### Installation
 Copy 'getPageSource.py' and 'searchTPB' to your PATH and make them executable.
 
 ### Usage
-Normally: `searchTPB`
-If TPB is inaccesible for you: `searchTPB -t`
+- `searchTPB [-t]`
+- The `-t` flag enables access to The Pirate Bay through tor.
