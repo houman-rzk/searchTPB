@@ -14,5 +14,4 @@ The script asks the user for a search query and returns the corresponding list o
 Copy 'getPageSource.py' and 'searchTPB' to your PATH and make them executable.
 
 ### Usage
-- `searchTPB [-t]`
-- The `-t` flag enables access to The Pirate Bay through tor.
+`searchTPB [-t]` The `-t` flag enables access to The Pirate Bay through tor.
